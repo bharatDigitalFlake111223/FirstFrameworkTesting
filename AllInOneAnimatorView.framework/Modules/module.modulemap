@@ -1,0 +1,6 @@
+framework module AllInOneAnimatorView {
+  umbrella header "AllInOneAnimatorView.h"
+  export *
+
+  module * { export * }
+}

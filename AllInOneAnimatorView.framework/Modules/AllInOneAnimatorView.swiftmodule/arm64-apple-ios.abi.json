@@ -1,0 +1,1610 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AllInOneAnimatorView",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AllInOneAnimatorView"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "AllInOneAnimatorView"
+      },
+      {
+        "kind": "Import",
+        "name": "Lottie",
+        "printedName": "Lottie",
+        "declKind": "Import",
+        "moduleName": "AllInOneAnimatorView"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FileType",
+        "printedName": "FileType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "mp4",
+            "printedName": "mp4",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AllInOneAnimatorView.FileType.Type) -> AllInOneAnimatorView.FileType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "AllInOneAnimatorView.FileType",
+                    "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AllInOneAnimatorView.FileType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileType",
+                        "printedName": "AllInOneAnimatorView.FileType",
+                        "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20AllInOneAnimatorView8FileTypeO3mp4yA2CmF",
+            "mangledName": "$s20AllInOneAnimatorView8FileTypeO3mp4yA2CmF",
+            "moduleName": "AllInOneAnimatorView"
+          },
+          {
+            "kind": "Var",
+            "name": "avi",
+            "printedName": "avi",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AllInOneAnimatorView.FileType.Type) -> AllInOneAnimatorView.FileType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "AllInOneAnimatorView.FileType",
+                    "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AllInOneAnimatorView.FileType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileType",
+                        "printedName": "AllInOneAnimatorView.FileType",
+                        "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20AllInOneAnimatorView8FileTypeO3aviyA2CmF",
+            "mangledName": "$s20AllInOneAnimatorView8FileTypeO3aviyA2CmF",
+            "moduleName": "AllInOneAnimatorView"
+          },
+          {
+            "kind": "Var",
+            "name": "mov",
+            "printedName": "mov",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AllInOneAnimatorView.FileType.Type) -> AllInOneAnimatorView.FileType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "AllInOneAnimatorView.FileType",
+                    "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AllInOneAnimatorView.FileType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileType",
+                        "printedName": "AllInOneAnimatorView.FileType",
+                        "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20AllInOneAnimatorView8FileTypeO3movyA2CmF",
+            "mangledName": "$s20AllInOneAnimatorView8FileTypeO3movyA2CmF",
+            "moduleName": "AllInOneAnimatorView"
+          },
+          {
+            "kind": "Var",
+            "name": "mkv",
+            "printedName": "mkv",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AllInOneAnimatorView.FileType.Type) -> AllInOneAnimatorView.FileType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "AllInOneAnimatorView.FileType",
+                    "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AllInOneAnimatorView.FileType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileType",
+                        "printedName": "AllInOneAnimatorView.FileType",
+                        "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20AllInOneAnimatorView8FileTypeO3mkvyA2CmF",
+            "mangledName": "$s20AllInOneAnimatorView8FileTypeO3mkvyA2CmF",
+            "moduleName": "AllInOneAnimatorView"
+          },
+          {
+            "kind": "Var",
+            "name": "wmv",
+            "printedName": "wmv",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AllInOneAnimatorView.FileType.Type) -> AllInOneAnimatorView.FileType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "AllInOneAnimatorView.FileType",
+                    "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AllInOneAnimatorView.FileType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileType",
+                        "printedName": "AllInOneAnimatorView.FileType",
+                        "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20AllInOneAnimatorView8FileTypeO3wmvyA2CmF",
+            "mangledName": "$s20AllInOneAnimatorView8FileTypeO3wmvyA2CmF",
+            "moduleName": "AllInOneAnimatorView"
+          },
+          {
+            "kind": "Var",
+            "name": "flv",
+            "printedName": "flv",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AllInOneAnimatorView.FileType.Type) -> AllInOneAnimatorView.FileType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "AllInOneAnimatorView.FileType",
+                    "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AllInOneAnimatorView.FileType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileType",
+                        "printedName": "AllInOneAnimatorView.FileType",
+                        "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20AllInOneAnimatorView8FileTypeO3flvyA2CmF",
+            "mangledName": "$s20AllInOneAnimatorView8FileTypeO3flvyA2CmF",
+            "moduleName": "AllInOneAnimatorView"
+          },
+          {
+            "kind": "Var",
+            "name": "gif",
+            "printedName": "gif",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AllInOneAnimatorView.FileType.Type) -> AllInOneAnimatorView.FileType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "AllInOneAnimatorView.FileType",
+                    "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AllInOneAnimatorView.FileType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileType",
+                        "printedName": "AllInOneAnimatorView.FileType",
+                        "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20AllInOneAnimatorView8FileTypeO3gifyA2CmF",
+            "mangledName": "$s20AllInOneAnimatorView8FileTypeO3gifyA2CmF",
+            "moduleName": "AllInOneAnimatorView"
+          },
+          {
+            "kind": "Var",
+            "name": "json",
+            "printedName": "json",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AllInOneAnimatorView.FileType.Type) -> AllInOneAnimatorView.FileType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "AllInOneAnimatorView.FileType",
+                    "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AllInOneAnimatorView.FileType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileType",
+                        "printedName": "AllInOneAnimatorView.FileType",
+                        "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20AllInOneAnimatorView8FileTypeO4jsonyA2CmF",
+            "mangledName": "$s20AllInOneAnimatorView8FileTypeO4jsonyA2CmF",
+            "moduleName": "AllInOneAnimatorView",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "jpg",
+            "printedName": "jpg",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AllInOneAnimatorView.FileType.Type) -> AllInOneAnimatorView.FileType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "AllInOneAnimatorView.FileType",
+                    "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AllInOneAnimatorView.FileType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileType",
+                        "printedName": "AllInOneAnimatorView.FileType",
+                        "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20AllInOneAnimatorView8FileTypeO3jpgyA2CmF",
+            "mangledName": "$s20AllInOneAnimatorView8FileTypeO3jpgyA2CmF",
+            "moduleName": "AllInOneAnimatorView",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "png",
+            "printedName": "png",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AllInOneAnimatorView.FileType.Type) -> AllInOneAnimatorView.FileType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "AllInOneAnimatorView.FileType",
+                    "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AllInOneAnimatorView.FileType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileType",
+                        "printedName": "AllInOneAnimatorView.FileType",
+                        "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20AllInOneAnimatorView8FileTypeO3pngyA2CmF",
+            "mangledName": "$s20AllInOneAnimatorView8FileTypeO3pngyA2CmF",
+            "moduleName": "AllInOneAnimatorView",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "jpeg",
+            "printedName": "jpeg",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AllInOneAnimatorView.FileType.Type) -> AllInOneAnimatorView.FileType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "AllInOneAnimatorView.FileType",
+                    "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AllInOneAnimatorView.FileType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileType",
+                        "printedName": "AllInOneAnimatorView.FileType",
+                        "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20AllInOneAnimatorView8FileTypeO4jpegyA2CmF",
+            "mangledName": "$s20AllInOneAnimatorView8FileTypeO4jpegyA2CmF",
+            "moduleName": "AllInOneAnimatorView",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bmp",
+            "printedName": "bmp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AllInOneAnimatorView.FileType.Type) -> AllInOneAnimatorView.FileType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "AllInOneAnimatorView.FileType",
+                    "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AllInOneAnimatorView.FileType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileType",
+                        "printedName": "AllInOneAnimatorView.FileType",
+                        "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20AllInOneAnimatorView8FileTypeO3bmpyA2CmF",
+            "mangledName": "$s20AllInOneAnimatorView8FileTypeO3bmpyA2CmF",
+            "moduleName": "AllInOneAnimatorView",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tiff",
+            "printedName": "tiff",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AllInOneAnimatorView.FileType.Type) -> AllInOneAnimatorView.FileType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "AllInOneAnimatorView.FileType",
+                    "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AllInOneAnimatorView.FileType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileType",
+                        "printedName": "AllInOneAnimatorView.FileType",
+                        "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20AllInOneAnimatorView8FileTypeO4tiffyA2CmF",
+            "mangledName": "$s20AllInOneAnimatorView8FileTypeO4tiffyA2CmF",
+            "moduleName": "AllInOneAnimatorView",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "webp",
+            "printedName": "webp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AllInOneAnimatorView.FileType.Type) -> AllInOneAnimatorView.FileType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "AllInOneAnimatorView.FileType",
+                    "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AllInOneAnimatorView.FileType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileType",
+                        "printedName": "AllInOneAnimatorView.FileType",
+                        "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20AllInOneAnimatorView8FileTypeO4webpyA2CmF",
+            "mangledName": "$s20AllInOneAnimatorView8FileTypeO4webpyA2CmF",
+            "moduleName": "AllInOneAnimatorView",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "svg",
+            "printedName": "svg",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AllInOneAnimatorView.FileType.Type) -> AllInOneAnimatorView.FileType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "AllInOneAnimatorView.FileType",
+                    "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AllInOneAnimatorView.FileType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileType",
+                        "printedName": "AllInOneAnimatorView.FileType",
+                        "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20AllInOneAnimatorView8FileTypeO3svgyA2CmF",
+            "mangledName": "$s20AllInOneAnimatorView8FileTypeO3svgyA2CmF",
+            "moduleName": "AllInOneAnimatorView",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AllInOneAnimatorView.FileType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileType",
+                    "printedName": "AllInOneAnimatorView.FileType",
+                    "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20AllInOneAnimatorView8FileTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s20AllInOneAnimatorView8FileTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "AllInOneAnimatorView",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20AllInOneAnimatorView8FileTypeO8rawValueSSvp",
+            "mangledName": "$s20AllInOneAnimatorView8FileTypeO8rawValueSSvp",
+            "moduleName": "AllInOneAnimatorView",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20AllInOneAnimatorView8FileTypeO8rawValueSSvg",
+                "mangledName": "$s20AllInOneAnimatorView8FileTypeO8rawValueSSvg",
+                "moduleName": "AllInOneAnimatorView",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20AllInOneAnimatorView8FileTypeO",
+        "mangledName": "$s20AllInOneAnimatorView8FileTypeO",
+        "moduleName": "AllInOneAnimatorView",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContentViewType",
+        "printedName": "ContentViewType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "withInfo",
+            "printedName": "withInfo",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AllInOneAnimatorView.ContentViewType.Type) -> (Swift.String?, AllInOneAnimatorView.FileType, UIKit.UIView.ContentMode?, AVFoundation.AVLayerVideoGravity?, Swift.Bool?) -> AllInOneAnimatorView.ContentViewType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?, AllInOneAnimatorView.FileType, UIKit.UIView.ContentMode?, AVFoundation.AVLayerVideoGravity?, Swift.Bool?) -> AllInOneAnimatorView.ContentViewType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentViewType",
+                        "printedName": "AllInOneAnimatorView.ContentViewType",
+                        "usr": "s:20AllInOneAnimatorView07ContentE4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(fileOrUrlName: Swift.String?, fileType: AllInOneAnimatorView.FileType, viewContentMode: UIKit.UIView.ContentMode?, vedioGravity: AVFoundation.AVLayerVideoGravity?, isMuted: Swift.Bool?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FileType",
+                            "printedName": "AllInOneAnimatorView.FileType",
+                            "usr": "s:20AllInOneAnimatorView8FileTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIView.ContentMode?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ContentMode",
+                                "printedName": "UIKit.UIView.ContentMode",
+                                "usr": "c:@E@UIViewContentMode"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "AVFoundation.AVLayerVideoGravity?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AVLayerVideoGravity",
+                                "printedName": "AVFoundation.AVLayerVideoGravity",
+                                "usr": "c:@T@AVLayerVideoGravity"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Bool?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AllInOneAnimatorView.ContentViewType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ContentViewType",
+                        "printedName": "AllInOneAnimatorView.ContentViewType",
+                        "usr": "s:20AllInOneAnimatorView07ContentE4TypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20AllInOneAnimatorView07ContentE4TypeO8withInfoyACSSSg_AA04FileG0OSo06UIViewF4ModeVSgSo19AVLayerVideoGravityaSgSbSgtcACmF",
+            "mangledName": "$s20AllInOneAnimatorView07ContentE4TypeO8withInfoyACSSSg_AA04FileG0OSo06UIViewF4ModeVSgSo19AVLayerVideoGravityaSgSbSgtcACmF",
+            "moduleName": "AllInOneAnimatorView"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20AllInOneAnimatorView07ContentE4TypeO",
+        "mangledName": "$s20AllInOneAnimatorView07ContentE4TypeO",
+        "moduleName": "AllInOneAnimatorView",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ContentView",
+        "printedName": "ContentView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ContentView",
+                "printedName": "AllInOneAnimatorView.ContentView",
+                "usr": "c:@M@AllInOneAnimatorView@objc(cs)ContentView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AllInOneAnimatorView@objc(cs)ContentView(im)initWithFrame:",
+            "mangledName": "$s20AllInOneAnimatorView07ContentE0C5frameACSo6CGRectV_tcfc",
+            "moduleName": "AllInOneAnimatorView",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AllInOneAnimatorView.ContentView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentView",
+                    "printedName": "AllInOneAnimatorView.ContentView",
+                    "usr": "c:@M@AllInOneAnimatorView@objc(cs)ContentView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AllInOneAnimatorView@objc(cs)ContentView(im)initWithCoder:",
+            "mangledName": "$s20AllInOneAnimatorView07ContentE0C5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "AllInOneAnimatorView",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContentViewType",
+                "printedName": "AllInOneAnimatorView.ContentViewType",
+                "usr": "s:20AllInOneAnimatorView07ContentE4TypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AllInOneAnimatorView07ContentE0C5setup4withyAA0fE4TypeO_tF",
+            "mangledName": "$s20AllInOneAnimatorView07ContentE0C5setup4withyAA0fE4TypeO_tF",
+            "moduleName": "AllInOneAnimatorView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopPlayer",
+            "printedName": "stopPlayer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20AllInOneAnimatorView07ContentE0C10stopPlayeryyF",
+            "mangledName": "$s20AllInOneAnimatorView07ContentE0C10stopPlayeryyF",
+            "moduleName": "AllInOneAnimatorView",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "observeValue",
+            "printedName": "observeValue(forKeyPath:of:change:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.NSKeyValueChangeKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Foundation.NSKeyValueChangeKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSKeyValueChangeKey",
+                        "printedName": "Foundation.NSKeyValueChangeKey",
+                        "usr": "c:@T@NSKeyValueChangeKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutableRawPointer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutableRawPointer",
+                    "printedName": "Swift.UnsafeMutableRawPointer",
+                    "usr": "s:Sv"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AllInOneAnimatorView@objc(cs)ContentView(im)observeValueForKeyPath:ofObject:change:context:",
+            "mangledName": "$s20AllInOneAnimatorView07ContentE0C12observeValue10forKeyPath2of6change7contextySSSg_ypSgSDySo05NSKeyh6ChangeJ0aypGSgSvSgtF",
+            "moduleName": "AllInOneAnimatorView",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "observeValueForKeyPath:ofObject:change:context:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AllInOneAnimatorView@objc(cs)ContentView",
+        "mangledName": "$s20AllInOneAnimatorView07ContentE0C",
+        "moduleName": "AllInOneAnimatorView",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImageView",
+        "printedName": "UIImageView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fromLocalGif",
+            "printedName": "fromLocalGif(url:frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIImageViewC016AllInOneAnimatorB0E12fromLocalGif3url5frameABSg10Foundation3URLV_So6CGRectVtFZ",
+            "mangledName": "$sSo11UIImageViewC016AllInOneAnimatorB0E12fromLocalGif3url5frameABSg10Foundation3URLV_So6CGRectVtFZ",
+            "moduleName": "AllInOneAnimatorView",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fromRemoteGif",
+            "printedName": "fromRemoteGif(url:frame:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIImageView?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImageView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImageView",
+                        "printedName": "UIKit.UIImageView",
+                        "usr": "c:objc(cs)UIImageView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIImageViewC016AllInOneAnimatorB0E13fromRemoteGif3url5frame10completiony10Foundation3URLV_So6CGRectVyABSgctFZ",
+            "mangledName": "$sSo11UIImageViewC016AllInOneAnimatorB0E13fromRemoteGif3url5frame10completiony10Foundation3URLV_So6CGRectVyABSgctFZ",
+            "moduleName": "AllInOneAnimatorView",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImageView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImageView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 5,
+      "value": "\"mp4\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 5,
+      "value": "\"avi\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 264,
+      "length": 5,
+      "value": "\"mov\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 5,
+      "value": "\"mkv\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 5,
+      "value": "\"wmv\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 5,
+      "value": "\"flv\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 348,
+      "length": 5,
+      "value": "\"gif\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 414,
+      "length": 6,
+      "value": "\"json\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 461,
+      "length": 5,
+      "value": "\"jpg\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 503,
+      "length": 5,
+      "value": "\"png\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 6,
+      "value": "\"jpeg\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 586,
+      "length": 5,
+      "value": "\"bmp\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 631,
+      "length": 6,
+      "value": "\"tiff\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 673,
+      "length": 6,
+      "value": "\"webp\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 714,
+      "length": 5,
+      "value": "\"svg\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 5,
+      "value": "\"mp4\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 5,
+      "value": "\"avi\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 264,
+      "length": 5,
+      "value": "\"mov\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 5,
+      "value": "\"mkv\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 5,
+      "value": "\"wmv\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 5,
+      "value": "\"flv\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 348,
+      "length": 5,
+      "value": "\"gif\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 414,
+      "length": 6,
+      "value": "\"json\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 461,
+      "length": 5,
+      "value": "\"jpg\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 503,
+      "length": 5,
+      "value": "\"png\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 6,
+      "value": "\"jpeg\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 586,
+      "length": 5,
+      "value": "\"bmp\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 631,
+      "length": 6,
+      "value": "\"tiff\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 673,
+      "length": 6,
+      "value": "\"webp\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 714,
+      "length": 5,
+      "value": "\"svg\""
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 958,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bharatshilavat\/Desktop\/AllInOneViewAnimator\/AllInOneAnimatorView\/AllInOneAnimatorView\/AllInOneAnimatorView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1283,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
