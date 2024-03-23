@@ -36,6 +36,8 @@ extension AllInOneAnimatorViewController: UITableViewDataSource{
         return contentTypes.count
     }
     
+    
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ContentViewTableViewCell", for: indexPath) as! ContentViewTableViewCell
         let contentType = contentTypes[indexPath.row]
